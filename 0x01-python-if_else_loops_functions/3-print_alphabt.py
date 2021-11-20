@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for c in range(97, 123):
-    if c!= 113 and c !=101: # if the character is different from q and e
-        print("{}".format(chr(c)), end="")
+for i in range(97, 123):
+    if i != 113 and i != 101:
+        print("{}".format(chr(i)), end="")
